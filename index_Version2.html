@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SABIL MADICENE STORE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f9ff;
+      color: #244a7b;
+    }
+    header {
+      background-color: #1d3358;
+      color: #fff;
+      padding: 30px 0 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #244a7b;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #60a7ff;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2em 1em;
+      background: #fff;
+      margin-top: 2em;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(36,74,123,0.06);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    .subtitle {
+      font-size: 1.2em;
+      font-weight: 400;
+      padding: 5px 0;
+    }
+    section {
+      margin: 30px 0;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px 32px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .product-list li {
+      background: #e3f1ff;
+      border: 1px solid #60a7ff;
+      border-radius: 6px;
+      padding: 16px 22px;
+      min-width: 150px;
+      font-size: 1.05em;
+      flex: 1 1 180px;
+      box-shadow: 0 1px 4px rgba(80,150,255,0.06);
+    }
+    .contact-info {
+      background: #e3f1ff;
+      border-left: 6px solid #1d3358;
+      padding: 15px;
+      font-size: 1.1em;
+      border-radius: 6px;
+    }
+    footer {
+      background: #244a7b;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: relative;
+      bottom: 0;
+      margin-top: 40px;
+      font-size: 0.95em;
+      letter-spacing: 1px;
+    }
+    @media (max-width:600px) {
+      .container, header {
+        border-radius: 0;
+        margin-top: 0;
+      }
+      h1 {
+        font-size: 1.5em;
+      }
+      .product-list {
+        flex-direction: column;
+        gap: 10px 0;
+      }
+      .product-list li {
+        min-width: unset;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SABIL MADICENE STORE</h1>
+    <div class="subtitle">Your Trusted Medical Supply Store</div>
+  </header>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#address">Location</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Welcome to <strong>SABIL MADICENE STORE</strong>! We are dedicated to providing quality medical supplies and products for you and your family.
+        Our commitment is to serve the Dan Dutse Kankara community and the wider Katsina State region with reliable healthcare essentials.
+      </p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      <ul class="product-list">
+        <li>Paracetamol</li>
+        <li>Boska</li>
+        <li>Vitamin A</li>
+        <li>Vitamin B</li>
+        <li>Vitamin C</li>
+        <li>Omeprazole</li>
+        <li>And many more related medicines</li>
+      </ul>
+      <p style="margin-top:18px;">
+        <em>If you need a particular medicine, reach out to us – we likely have it in stock!</em>
+      </p>
+    </section>
+
+    <section id="address">
+      <h2>Location</h2>
+      <p>
+        Visit us at:<br>
+        <strong>Dan Dutse Kankara, Katsina State, Nigeria</strong>
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <b>Call/WhatsApp:</b><br>
+        <a href="tel:09045146226" style="color:#244a7b;">09045146226</a><br>
+        <a href="tel:09065481005" style="color:#244a7b;">09065481005</a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    &copy; 2026 SABIL MADICENE STORE | Dan Dutse Kankara, Katsina State
+  </footer>
+</body>
+</html>
